@@ -1,0 +1,144 @@
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: whitesmoke;
+    padding-top: 160px ;
+    padding-bottom: 50px ;
+}
+
+.header-div {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+    box-shadow: 1px 2px 3px rgba(97, 97, 97, 0.68);
+    border-bottom: 1px solid rgb(255, 191, 0);
+    height: 150px;
+}
+
+.brand-name {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.brand-logo img {
+    width: 80px;
+    padding-top: 15px;
+}
+
+section {
+    position: fixed;
+    top: 150px;
+    bottom: 60px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.extdiv {
+    display: flex;
+    width: 50%;
+    background-color: white;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    flex-direction: column;
+    overflow-y: auto;
+    position: absolute;
+    top:10px;
+    bottom: 10px;
+    box-shadow: 0px 0px 5px rgb(105, 105, 105);
+    border: 1px solid rgb(171, 171, 171);
+}
+
+.o-message {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.i-message {
+    background-color: rgb(212, 157, 15);
+    padding: 10px;
+    text-align: left;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.client-name {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.input-div {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 8;
+    height: 50px;
+    position: absolute;
+    bottom: 11px;
+    padding-top: 5px;
+    padding-bottom:10px;
+  }
+input {
+
+    border: 3px solid #ccc;
+    outline: none;
+    width: 80%;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .button {
+    border: none;
+    background-color: #ccc;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 1px;
+  }
+
+  .conn_dis {
+    text-align: center;
+    color: rgb(172, 172, 172);
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 0px;
+  }
+
+  footer {
+      background-color: gold;
+      text-align: center;
+      color: black;
+      font-size: 13px;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      height: 50px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+ }
