@@ -152,6 +152,8 @@ input {
 @media screen and (max-width: 600px) {
     .extdiv {
         width: 95%;
+        top: 0px;
+        bottom: 0px;
     }
     .input-div {
         width: 95%;
