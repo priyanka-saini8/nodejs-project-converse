@@ -101,17 +101,20 @@ section {
     padding-bottom:10px;
   }
 input {
-
     border: 3px solid #ccc;
     outline: none;
-    width: 80%;
+    width: 82%;
     border-radius: 20px;
     padding: 5px 10px;
+    font-size: 15px;
+  }
+  input:hover {
+    border: 3px solid gold;
   }
   
   .button {
     border: none;
-    background-color: #ccc;
+    background-color: gold;
     color: black;
     padding: 5px 25px;
     text-align: center;
@@ -119,6 +122,10 @@ input {
     font-weight: bold;
     border-radius: 20px;
     letter-spacing: 1px;
+  }
+
+  .button:hover {
+    background-color: rgb(255, 223, 44);
   }
 
   .conn_dis {
