@@ -11,8 +11,8 @@ const socket = io();
 socket.emit('conn_dis', personName);
 
 socket.on('con_dis_name_count', (name, count, con_type) => {
-    if(con_type === true) appendMessage(`${name} have joined the chat`, 'conn_dis');
-    else if(con_type === false) appendMessage(`${name} have left the chat`, 'conn_dis');
+    if(con_type === true) appendMessage(`${name} has joined the chat`, 'conn_dis');
+    else if(con_type === false) appendMessage(`${name} had left the chat`, 'conn_dis');
     scrollToBottom();
 });
 
